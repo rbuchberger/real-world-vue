@@ -16,16 +16,19 @@ export default new Router({
       component: EventList
     },
     {
-      path: '/event',
+      path: '/event/:id',
       name: 'event-show',
-      component: () =>
-        import(/* webpackChunkName: "about" */ './views/EventShow.vue')
+      component: EventShow,
+      props: true
+      // component: () =>
+      //   import(/* webpackChunkName: "event-show" */ './views/EventShow.vue')
     },
     {
       path: '/event/create',
       name: 'event-create',
-      component: () =>
-        import(/* webpackChunkName: "about" */ './views/EventCreate.vue')
-    },
+      component: EventCreate
+      // component: () =>
+      //   import(/* webpackChunkName: "event-create" */ './views/EventCreate.vue')
+    }
   ]
 })
