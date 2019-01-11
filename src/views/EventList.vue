@@ -1,7 +1,16 @@
 <template>
   <div>
-    <router-link :to="{ name: 'event-show', params: { id: 1 } }">
-      Show first event
-    </router-link>
+    <h1>Event Listing</h1>
+    <EventCard />
   </div>
 </template>
+
+<script>
+import EventCard from '@/components/EventCard.vue'
+
+export default {
+  components: {
+    EventCard
+  }
+}
+</script>
