@@ -1,6 +1,6 @@
 <template>
   <router-link
-    :to="{ name: 'event-show', params: { id: 1 } }"
+    :to="{ name: 'event-show', params: { id: event.id } }"
     class="event-link"
   >
     <div class="event-card -shadow">
@@ -15,19 +15,8 @@
 
 <script>
 export default {
-  data() {
-    return {
-      event: {
-        id: 1,
-        title: 'Park Cleanup',
-        date: 'Tuesday August 19, 2018',
-        time: '6:00',
-        attendees: [
-          { id: 'abc123', name: 'Robert Buchberger' },
-          { id: 'def345', name: 'Dominika Ziółkowska' }
-        ]
-      }
-    }
+  props: {
+    event: Object
   }
 }
 </script>
