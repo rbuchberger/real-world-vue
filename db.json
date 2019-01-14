@@ -231,6 +231,48 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 8681,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Robert Buchberger"
+      },
+      "title": "fdsa",
+      "description": "",
+      "location": "fdfddf",
+      "date": "2019-01-10T13:39:00.000Z",
+      "time": "8:00",
+      "attendees": []
+    },
+    {
+      "id": 6647,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Robert Buchberger"
+      },
+      "title": "erere",
+      "description": "",
+      "location": "ewre",
+      "date": "2019-01-23T14:33:00.000Z",
+      "time": "10:00",
+      "attendees": []
+    },
+    {
+      "id": 1530,
+      "category": "nature",
+      "organizer": {
+        "id": "abc123",
+        "name": "Robert Buchberger"
+      },
+      "title": "eruuuu",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
