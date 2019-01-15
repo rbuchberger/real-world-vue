@@ -4,6 +4,7 @@ import router from './router'
 import store from './store/store'
 import upperFirst from 'lodash/upperFirst'
 import camelCase from 'lodash/camelCase'
+import 'nprogress/nprogress.css'
 
 // The following finds all files in ./components/ which begin with Base
 const requireComponent = require.context(
